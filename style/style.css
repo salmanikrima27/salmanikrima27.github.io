@@ -1,0 +1,120 @@
+/* start body */
+body {
+    background-color: dodgerblue;
+    font-family: Arial, Helvetica, sans-serif;
+    font-style: normal;
+    color: black;
+    margin: 10;
+    padding: 10;
+    
+}
+/* end body */
+
+/* start debug */
+.logo {
+    text-align: center;
+}
+/* end debug */
+
+/* start container */
+.container {
+    margin: 10px auto;
+    overflow: auto;
+    width: 85%;
+}
+.container-full {
+    margin: 10px auto;
+    overflow: auto;
+    width: 100%;
+}
+/* end container */
+
+/* start menu-primer */
+.menu-primer ul {
+    background-color: lightslategrey;
+    border-radius: 3px;
+    text-align: center;
+}
+
+.menu-primer li {
+    border-right: 0px solid #d1d5da;
+    display: inline-block;
+    margin: 0 4px;
+}
+
+.menu-primer a {
+    color: lightslategrey;
+    font-size: 13px;
+    display: inline-block;
+    letter-spacing: 8px;
+    padding: 10px 10px;
+    text-transform: uppercase;
+}
+
+.menu-primer a:hover {
+    background-color: #f7f7f7;
+    color: black;
+    text-decoration: none;
+}
+
+.menu-primer .active {
+    background-color: #ffffff;
+    color: #333333;
+    text-decoration: none;
+}
+/* end menu-primer */
+
+/* start anchor */
+a:link,
+a:visited {
+    color: white;
+    text-decoration: none;
+}
+a:hover,
+a:active {
+    color: black;
+    text-decoration: underline;
+}
+/* end anchor */
+
+/* start heading */
+h1, h2, h3, h4, h5, h6 {
+    font-weight: 500;
+    letter-spacing: 1px;
+}
+h1 {
+    font-size: 28px;
+}
+h2 {
+    font-size: 24px;
+}
+h3 {
+    font-size: 18px;
+}
+h4 {
+    font-size: 16px;
+}
+h5 {
+    font-size: 14px;
+}
+h6 {
+    font-size: 13px;
+}
+/* end heading */
+
+/* start jumbotron */
+.jumbotron {
+    background-color: lightslategrey;
+    border: 1px solid lightslategrey;
+    border-radius: 4px;
+    padding: 20px 0;
+}
+.jumbotron h1 {
+    font-size: 32px;
+    padding: 0 20px;
+}
+.jumbotron h3 {
+    font-size: 20px;
+    padding: 0 20px;
+}
+/* start jumbotron */
